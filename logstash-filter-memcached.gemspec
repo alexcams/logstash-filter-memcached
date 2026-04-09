@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'logstash-filter-memcached'
-  s.version       = '0.1.2'
+  s.version         = ::File.read('version').split("\n").first
   s.licenses      = ['Apache-2.0']
   s.summary       = 'A Logstash filter plugin for interacting with memcached'
   s.homepage      = 'https://github.com/yaauie/logstash-filter-memcached'
